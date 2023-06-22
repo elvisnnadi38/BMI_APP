@@ -20,7 +20,7 @@ def rating(b):
     else:
         st.write('you are underweight')
 
-if st.button('calculte'):
+if st.button('calculate'):
     score= BMI(weight,height)
     st.write(score)
     rate = rating(score)
